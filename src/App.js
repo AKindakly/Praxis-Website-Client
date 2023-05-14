@@ -1,8 +1,15 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
+<<<<<<< HEAD
 import About from "./components/About/About";
 import OurServices from "./components/OurServices/OurServices";
+=======
+
+import About from "./components/About/About";
+import OurServices from "./components/OurServices/OurServices";
+
+>>>>>>> 6584e5d (trying Link after deploying issue)
 import Contact from "./components/Contact/Contact";
 
 const App = () => {
