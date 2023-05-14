@@ -10,6 +10,7 @@ import {
     FaEnvelope as EmailIcon,
 } from "react-icons/fa";
 import logo from "../../../assets/pearly-whites-logo-white.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     // const currentYear = new Date().getFullYear();
@@ -43,28 +44,28 @@ const Footer = () => {
                             <h5>Explore</h5>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a
-                                        href="/about"
+                                    <Link
+                                        to="/about"
                                         className="text-white text-decoration-none"
                                     >
                                         About
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/services"
+                                    <Link
+                                        to="/services"
                                         className="text-white text-decoration-none"
                                     >
                                         Services
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
-                                        href="/contact"
+                                    <Link
+                                        to="/contact"
                                         className="text-white text-decoration-none"
                                     >
                                         Contact
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

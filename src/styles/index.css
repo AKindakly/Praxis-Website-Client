@@ -24,3 +24,7 @@ code {
 .carousel-control-prev-icon {
     filter: invert(1);
 }
+
+a {
+    text-decoration: none;
+}

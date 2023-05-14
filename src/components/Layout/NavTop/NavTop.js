@@ -42,28 +42,18 @@ const NavTop = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto fs-5">
-                            <Nav.Link
-                                href="/about"
-                                className="mx-4 text-primary"
-                            >
+                            <Link to="/about" className="mx-4 text-primary">
                                 About
-                            </Nav.Link>
-                            <Nav.Link
-                                href="/services"
-                                className="mx-4 text-primary"
-                            >
+                            </Link>
+                            <Link to="/services" className="mx-4 text-primary">
                                 Services
-                            </Nav.Link>
-                            <Nav.Link
-                                href="/contact"
-                                className="mx-4 text-primary"
-                            >
+                            </Link>
+                            <Link to="/contact" className="mx-4 text-primary">
                                 Contact
-                            </Nav.Link>
+                            </Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
-                <Link to="/about">HELLO</Link>
             </Navbar>
         </>
     );
