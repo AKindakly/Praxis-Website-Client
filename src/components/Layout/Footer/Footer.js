@@ -12,7 +12,7 @@ import {
 import logo from "../../../assets/pearly-whites-logo-white.png";
 
 const Footer = () => {
-    const currentYear = new Date().getFullYear();
+    // const currentYear = new Date().getFullYear();
 
     return (
         <>

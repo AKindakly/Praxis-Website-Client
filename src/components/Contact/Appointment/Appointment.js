@@ -9,6 +9,7 @@ const Appointment = () => {
                     href="https://www.google.com"
                     target="_blank"
                     className="text-decoration-none text-white fs-2"
+                    rel="noreferrer"
                 >
                     an Appointment
                 </a>

@@ -72,6 +72,7 @@ const Hero = () => {
                         href="https://www.google.com"
                         target="_blank"
                         className="btn btn-primary btn-round px-4 py-2 fs-5"
+                        rel="noreferrer"
                     >
                         Book Now
                     </a>

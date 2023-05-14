@@ -81,6 +81,7 @@ const Location = () => {
                     variants={firstVariants}
                 >
                     <iframe
+                        title="Praxis Location"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.697407336874!2d13.407230416131934!3d52.52081497981429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1f9014ffeb%3A0xc8fafc484349e4a1!2sBerliner%20Fernsehturm!5e0!3m2!1sen!2sde!4v1679065743097!5m2!1sen!2sde"
                         width="700"
                         height="600"
