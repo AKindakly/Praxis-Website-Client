@@ -7,6 +7,7 @@ import {
     FaClock as ClockIcon,
 } from "react-icons/fa";
 import logo from "../../../assets/pearly-whites-logo.png";
+import { Link } from "react-router-dom";
 
 const NavTop = () => {
     return (
@@ -62,6 +63,7 @@ const NavTop = () => {
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
+                <Link to="/about">HELLO</Link>
             </Navbar>
         </>
     );
